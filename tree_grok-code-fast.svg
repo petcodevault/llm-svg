@@ -1,0 +1,16 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Christmas Tree -->
+  <polygon points="100,50 150,150 50,150" fill="#228B22" />
+  <polygon points="100,100 140,200 60,200" fill="#32CD32" />
+  <polygon points="100,150 130,250 70,250" fill="#006400" />
+  <!-- Trunk -->
+  <rect x="90" y="250" width="20" height="30" fill="#8B4513" />
+  <!-- Star -->
+  <polygon points="100,30 105,45 120,45 110,55 115,70 100,60 85,70 90,55 75,45 90,45" fill="#FFD700" />
+  <!-- Ornaments -->
+  <circle cx="100" cy="120" r="5" fill="#FF0000" />
+  <circle cx="80" cy="180" r="5" fill="#0000FF" />
+  <circle cx="120" cy="180" r="5" fill="#FFFF00" />
+  <circle cx="90" cy="220" r="5" fill="#FF69B4" />
+  <circle cx="110" cy="220" r="5" fill="#FFA500" />
+</svg>

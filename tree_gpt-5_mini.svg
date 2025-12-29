@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" aria-labelledby="title desc" role="img">
+  <title id="title">Новогодняя ёлка</title>
+  <desc id="desc">Стилизация ёлки с прозрачным фоном, звезда и украшения.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#4CAF50"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#66BB6A"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background (no rect fill) -->
+
+  <!-- Tree tiers -->
+  <g transform="translate(0,40)">
+    <polygon points="400,20 640,260 160,260" fill="url(#g1)" stroke="#1b5e20" stroke-width="4"/>
+    <polygon points="400,180 700,520 100,520" fill="url(#g2)" stroke="#1b5e20" stroke-width="4"/>
+    <polygon points="400,420 760,860 40,860" fill="url(#g1)" stroke="#1b5e20" stroke-width="4"/>
+
+    <!-- Trunk -->
+    <rect x="360" y="860" width="80" height="120" rx="8" ry="8" fill="#8D6E63" stroke="#5D4037" stroke-width="3"/>
+
+    <!-- Star on top -->
+    <polygon points="400,0 415,26 443,26 421,44 431,72 400,56 369,72 379,44 357,26 385,26" fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
+
+    <!-- Ornaments -->
+    <circle cx="320" cy="210" r="12" fill="#E91E63" stroke="#880E4F" stroke-width="2"/>
+    <circle cx="480" cy="210" r="12" fill="#FFEB3B" stroke="#F9A825" stroke-width="2"/>
+    <circle cx="260" cy="420" r="14" fill="#2196F3" stroke="#0D47A1" stroke-width="2"/>
+    <circle cx="540" cy="420" r="14" fill="#FF5722" stroke="#BF360C" stroke-width="2"/>
+    <circle cx="200" cy="640" r="16" fill="#9C27B0" stroke="#6A1B9A" stroke-width="2"/>
+    <circle cx="600" cy="640" r="16" fill="#00BCD4" stroke="#006064" stroke-width="2"/>
+
+    <!-- Garland -->
+    <path d="M180 300 C 300 240, 500 240, 620 300" fill="none" stroke="#FFD54F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M140 500 C 280 440, 520 440, 660 500" fill="none" stroke="#FFF59D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 720 C 260 660, 540 660, 700 720" fill="none" stroke="#FFE082" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

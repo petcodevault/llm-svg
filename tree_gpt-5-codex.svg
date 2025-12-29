@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 320" width="256" height="320">
+  <title>Festive tree</title>
+  <g fill="none" stroke="none">
+    <polygon points="128 16 144 56 192 64 154 88 166 128 128 108 90 128 102 88 64 64 112 56" fill="#f9d71c"/>
+    <polygon points="128 56 188 128 68 128" fill="#1f8a3a"/>
+    <polygon points="128 108 204 188 52 188" fill="#1a7130"/>
+    <polygon points="128 164 220 256 36 256" fill="#155c26"/>
+    <rect x="108" y="256" width="40" height="52" fill="#7b4a1c"/>
+    <circle cx="88" cy="148" r="8" fill="#f66f6f"/>
+    <circle cx="168" cy="150" r="8" fill="#5fb1ff"/>
+    <circle cx="112" cy="204" r="8" fill="#ffe066"/>
+    <circle cx="144" cy="226" r="8" fill="#ff8fce"/>
+    <circle cx="184" cy="208" r="8" fill="#f66f6f"/>
+    <circle cx="72" cy="214" r="8" fill="#5fb1ff"/>
+  </g>
+</svg>
