@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="260" viewBox="0 0 200 260" role="img" aria-label="Новогодняя ёлка" preserveAspectRatio="xMidYMid meet">
-  <desc>Минималистичная новогодняя ёлка с прозрачным фоном</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" role="img" aria-label="Minimalist Christmas tree" preserveAspectRatio="xMidYMid meet">
+  <desc>Minimalist Christmas tree with transparent background</desc>
   <defs>
     <linearGradient id="treeGrad" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#58c063"/>
@@ -11,29 +11,29 @@
     </filter>
   </defs>
 
-  <!-- Небольшая тень под ёлкой -->
+  <!-- Small shadow under the tree -->
   <ellipse cx="100" cy="248" rx="46" ry="10" fill="#000" opacity="0.12"/>
 
-  <!-- Верхушка - звезда -->
+  <!-- Top - star -->
   <g transform="translate(100,34)">
     <polygon points="0,-18 5,-6 18,-6 8,2 12,14 0,7 -12,14 -8,2 -18,-6 -5,-6" fill="#ffd64d" stroke="#ffb700" stroke-width="0.8"/>
   </g>
 
-  <!-- Слои ёлки -->
+  <!-- Tree layers -->
   <g fill="url(#treeGrad)" stroke="#0f5a1f" stroke-width="0.8" stroke-linejoin="round" filter="none">
     <polygon points="100,46 76,96 124,96"/>
     <polygon points="100,92 56,154 144,154"/>
     <polygon points="100,144 30,220 170,220"/>
   </g>
 
-  <!-- Игрушки -->
+  <!-- Ornaments -->
   <g fill-rule="evenodd">
     <circle cx="100" cy="80" r="5.5" fill="#e63946"/>
     <circle cx="120" cy="118" r="6" fill="#ffb703"/>
     <circle cx="78" cy="132" r="5.5" fill="#0077b6"/>
     <circle cx="88" cy="180" r="6" fill="#6a4c93"/>
     <circle cx="132" cy="166" r="5.5" fill="#ff6b6b"/>
-    <!-- Блики на игрушках -->
+    <!-- Highlights on ornaments -->
     <g fill="#fff" opacity="0.8">
       <circle cx="103" cy="77" r="1.8"/>
       <circle cx="122" cy="115" r="1.5"/>
@@ -43,7 +43,7 @@
     </g>
   </g>
 
-  <!-- Корень (ствол) -->
+  <!-- Trunk -->
   <rect x="86" y="220" width="28" height="28" rx="4" fill="#8b5a2b"/>
 
 </svg>

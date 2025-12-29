@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" aria-labelledby="title desc" role="img">
-  <title id="title">Новогодняя ёлка</title>
-  <desc id="desc">Стилизация ёлки с прозрачным фоном, звезда и украшения.</desc>
+  <title id="title">Christmas tree</title>
+  <desc id="desc">Stylized tree with transparent background, star and decorations.</desc>
   <defs>
     <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#4CAF50"/>

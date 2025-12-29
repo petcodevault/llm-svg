@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tree and Globe Models</title>
+    <style>
+                /* Modal styles */
+                .modal-overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0; left: 0; right: 0; bottom: 0;
+                    background: rgba(0,0,0,0.7);
+                    z-index: 1000;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .modal-overlay.active {
+                    display: flex;
+                }
+                .modal-img {
+                    max-width: 90vw;
+                    max-height: 90vh;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+                    background: #fff;
+                    padding: 0.5rem;
+                }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            margin: 0;
+            padding: 2rem;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 0.67rem;
+            justify-content: center;
+            justify-items: center;
+            align-items: start;
+        }
+        .item {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            padding: 0.33rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .item a {
+            display: block;
+            border-radius: 8px;
+            transition: box-shadow 0.2s;
+        }
+        .item a:hover {
+            box-shadow: 0 0 0 4px #b3e5fc;
+        }
+        .item img {
+            width: 240px;
+            height: 240px;
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+        .item .label {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 0.2rem;
+        }
+    </style>
+</head>
+<body>
+    <section style="margin-bottom:2rem;">
+        <div style="display:flex;justify-content:center;align-items:center;gap:2rem;">
+            <div class="item" style="width:320px;">
+                <div class="label" style="font-size:1.2rem;font-weight:bold;">GTP 5.2</div>
+                <a href="#" data-img="tree_gpt-5_2.svg">
+                    <img src="tree_gpt-5_2.svg" alt="Tree_GPT-5_2" style="width:320px;height:320px;">
+                </a>
+            </div>
+            <div style="font-size:2.2rem;font-weight:bold;">VS</div>
+            <div class="item" style="width:320px;">
+                <div class="label" style="font-size:1.2rem;font-weight:bold;">Grok Code Fast</div>
+                <a href="#" data-img="tree_grok-code-fast.svg">
+                    <img src="tree_grok-code-fast.svg" alt="Tree_Grok-Code-Fast" style="width:320px;height:320px;">
+                </a>
+            </div>
+        </div>
+    </section>
+    <h1>All Tree Models</h1>
+    <div class="grid">
+        <div class="item">
+            <div class="label">GTP 5.2</div>
+            <a href="#" data-img="tree_gpt-5_2.svg">
+                <img src="tree_gpt-5_2.svg" alt="Tree_GPT-5_2">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Claude Opus 4.5</div>
+            <a href="#" data-img="tree_claude-opus-4_5.svg">
+                <img src="tree_claude-opus-4_5.svg" alt="Tree_Claude-Opus-4_5">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Claude Sonnet 4.5</div>
+            <a href="#" data-img="tree_claude-sonnet-4_5.svg">
+                <img src="tree_claude-sonnet-4_5.svg" alt="Tree_Claude-Sonnet-4_5">
+            </a>
+        </div>
+            <div class="item">
+                <div class="label">DeepSeek 3.2</div>
+                <a href="#" data-img="tree_deepseek-3_2.svg">
+                    <img src="tree_deepseek-3_2.svg" alt="Tree_DeepSeek-3_2">
+                </a>
+            </div>
+            <div class="item">
+                <div class="label">GPT-5.1 Codex Max</div>
+                <a href="#" data-img="tree_gpt-5.1-codex-max.svg">
+                    <img src="tree_gpt-5.1-codex-max.svg" alt="Tree_GPT-5.1-Codex-Max">
+                </a>
+            </div>
+        <div class="item">
+            <div class="label">Gemini 3 Pro</div>
+            <a href="#" data-img="tree_gemini-3-pro.svg">
+                <img src="tree_gemini-3-pro.svg" alt="Tree_Gemini-3-Pro">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GPT-4.1</div>
+            <a href="#" data-img="tree_gpt-4_1.svg">
+                <img src="tree_gpt-4_1.svg" alt="Tree_GPT-4_1">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GPT-4o</div>
+            <a href="#" data-img="tree_gpt-4o.svg">
+                <img src="tree_gpt-4o.svg" alt="Tree_GPT-4o">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GPT-5 Codex</div>
+            <a href="#" data-img="tree_gpt-5-codex.svg">
+                <img src="tree_gpt-5-codex.svg" alt="Tree_GPT-5-Codex">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GPT-5.1 Codex Max</div>
+            <a href="#" data-img="tree_gpt-5.1-codex-max.svg">
+                <img src="tree_gpt-5.1-codex-max.svg" alt="Tree_GPT-5.1-Codex-Max">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GPT-5 Mini</div>
+            <a href="#" data-img="tree_gpt-5_mini.svg">
+                <img src="tree_gpt-5_mini.svg" alt="Tree_GPT-5_Mini">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Grok Code Fast</div>
+            <a href="#" data-img="tree_grok-code-fast.svg">
+                <img src="tree_grok-code-fast.svg" alt="Tree_Grok-Code-Fast">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Raptor Mini</div>
+            <a href="#" data-img="tree_raptor-mini.svg">
+                <img src="tree_raptor-mini.svg" alt="Tree_Raptor-Mini">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Cloude Haiku 4.5</div>
+            <a href="#" data-img="tree_cloude-haiku-4_5.svg">
+                <img src="tree_cloude-haiku-4_5.svg" alt="Tree_Cloude-Haiku-4_5">
+            </a>
+        </div>
+            <div class="item">
+                <div class="label">ChatGPT Free Web</div>
+                <a href="#" data-img="tree_chatgpt-free-web.svg">
+                    <img src="tree_chatgpt-free-web.svg" alt="Tree_ChatGPT-Free-Web">
+                </a>
+            </div>
+            <div class="item">
+                <div class="label">DeepSeek Web</div>
+                <a href="#" data-img="tree_deepseek-web.svg">
+                    <img src="tree_deepseek-web.svg" alt="Tree_DeepSeek-Web">
+                </a>
+            </div>
+    </div>
+
+    <h1>All Globe Models</h1>
+    <div class="grid">
+        <div class="item">
+            <div class="label">Claude Opus 4.5</div>
+            <a href="#" data-img="globe_claude-opus-4_5.svg">
+                <img src="globe_claude-opus-4_5.svg" alt="Globe_Claude-Opus-4_5">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Claude Sonnet 4.5</div>
+            <a href="#" data-img="globe_claude-sonnet-4_5.svg">
+                <img src="globe_claude-sonnet-4_5.svg" alt="Globe_Claude-Sonnet-4_5">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">GTP 5.2</div>
+            <a href="#" data-img="globe_gpt-5_2.svg">
+                <img src="globe_gpt-5_2.svg" alt="Globe_GPT-5_2">
+            </a>
+        </div>
+        <div class="item">
+            <div class="label">Gemini 3 Pro</div>
+            <a href="#" data-img="globe_gemini-3-pro.svg">
+                <img src="globe_gemini-3-pro.svg" alt="Globe_Gemini-3-Pro">
+            </a>
+        </div>
+
+            <!-- Modal overlay for full-size image -->
+            <div class="modal-overlay" id="modalOverlay">
+                <img class="modal-img" id="modalImg" src="" alt="Full size">
+            </div>
+
+            <script>
+                document.querySelectorAll('.item a[data-img]').forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const src = this.getAttribute('data-img');
+                        const modal = document.getElementById('modalOverlay');
+                        const modalImg = document.getElementById('modalImg');
+                        modalImg.src = src;
+                        modal.classList.add('active');
+                    });
+                });
+                document.getElementById('modalOverlay').addEventListener('click', function() {
+                    this.classList.remove('active');
+                    document.getElementById('modalImg').src = '';
+                });
+            </script>
+        </body>
+        </html>
+        </div>
+    </div>
+</body>
+</html>

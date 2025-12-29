@@ -1,0 +1,27 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 300"
+    width="200"
+    height="300"
+>
+    <!-- Star -->
+    <polygon
+        points="100,10 108,30 130,30 112,44 118,66 100,54 82,66 88,44 70,30 92,30"
+        fill="#FFD700"
+    />
+
+    <!-- Tree layers -->
+    <polygon points="100,40 30,120 170,120" fill="#1f7a3f"/>
+    <polygon points="100,80 25,170 175,170" fill="#238b45"/>
+    <polygon points="100,120 20,220 180,220" fill="#2ca25f"/>
+
+    <!-- Trunk -->
+    <rect x="85" y="220" width="30" height="50" fill="#8b5a2b"/>
+
+    <!-- Ornaments -->
+    <circle cx="80" cy="135" r="4" fill="#ff4d4d"/>
+    <circle cx="120" cy="150" r="4" fill="#4da6ff"/>
+    <circle cx="100" cy="175" r="4" fill="#ffd966"/>
+    <circle cx="60" cy="185" r="4" fill="#ff99cc"/>
+    <circle cx="140" cy="190" r="4" fill="#66ff99"/>
+</svg>

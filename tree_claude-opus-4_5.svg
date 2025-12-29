@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250">
-  <!-- Прозрачный фон (без fill на корневом элементе) -->
+  <!-- Transparent background (no fill on root element) -->
   
-  <!-- Звезда на верхушке -->
+  <!-- Star on the top -->
   <polygon points="100,5 104,18 118,18 107,26 111,40 100,32 89,40 93,26 82,18 96,18" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
   
-  <!-- Верхний ярус елки -->
+  <!-- Top tier of the tree -->
   <polygon points="100,35 130,75 70,75" fill="#228B22"/>
   <polygon points="100,35 125,70 75,70" fill="#2E8B2E"/>
   
-  <!-- Средний ярус елки -->
+  <!-- Middle tier of the tree -->
   <polygon points="100,55 145,110 55,110" fill="#228B22"/>
   <polygon points="100,55 138,105 62,105" fill="#2E8B2E"/>
   
-  <!-- Нижний ярус елки -->
+  <!-- Bottom tier of the tree -->
   <polygon points="100,85 160,155 40,155" fill="#228B22"/>
   <polygon points="100,85 152,148 48,148" fill="#2E8B2E"/>
   
-  <!-- Самый нижний ярус -->
+  <!-- Lowest tier -->
   <polygon points="100,120 175,200 25,200" fill="#228B22"/>
   <polygon points="100,120 165,192 35,192" fill="#2E8B2E"/>
   
-  <!-- Ствол -->
+  <!-- Trunk -->
   <rect x="85" y="200" width="30" height="35" fill="#8B4513"/>
   <rect x="88" y="200" width="24" height="35" fill="#A0522D"/>
   
-  <!-- Елочные шары - красные -->
+  <!-- Christmas balls - red -->
   <circle cx="85" cy="70" r="6" fill="#FF0000" stroke="#CC0000" stroke-width="1"/>
   <circle cx="115" cy="68" r="5" fill="#FF0000" stroke="#CC0000" stroke-width="1"/>
   <circle cx="70" cy="100" r="6" fill="#FF0000" stroke="#CC0000" stroke-width="1"/>
@@ -34,21 +34,21 @@
   <circle cx="50" cy="185" r="6" fill="#FF0000" stroke="#CC0000" stroke-width="1"/>
   <circle cx="150" cy="188" r="5" fill="#FF0000" stroke="#CC0000" stroke-width="1"/>
   
-  <!-- Елочные шары - синие -->
+  <!-- Christmas balls - blue -->
   <circle cx="100" cy="65" r="5" fill="#1E90FF" stroke="#0066CC" stroke-width="1"/>
   <circle cx="95" cy="100" r="6" fill="#1E90FF" stroke="#0066CC" stroke-width="1"/>
   <circle cx="110" cy="140" r="5" fill="#1E90FF" stroke="#0066CC" stroke-width="1"/>
   <circle cx="80" cy="175" r="6" fill="#1E90FF" stroke="#0066CC" stroke-width="1"/>
   <circle cx="120" cy="180" r="5" fill="#1E90FF" stroke="#0066CC" stroke-width="1"/>
   
-  <!-- Елочные шары - золотые -->
+  <!-- Christmas balls - gold -->
   <circle cx="78" cy="135" r="5" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
   <circle cx="122" cy="138" r="6" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
   <circle cx="100" cy="170" r="5" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
   <circle cx="65" cy="180" r="5" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
   <circle cx="135" cy="182" r="6" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
   
-  <!-- Гирлянда - огоньки -->
+  <!-- Garland - lights -->
   <circle cx="88" cy="85" r="3" fill="#FFFF00" opacity="0.9"/>
   <circle cx="112" cy="88" r="3" fill="#FF69B4" opacity="0.9"/>
   <circle cx="75" cy="115" r="3" fill="#00FF00" opacity="0.9"/>
