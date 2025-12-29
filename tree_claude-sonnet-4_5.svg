@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250">
+  <!-- Tree layers -->
+  <polygon points="100,30 60,80 70,80 40,120 50,120 20,160 180,160 150,120 160,120 130,80 140,80" fill="#2d5016"/>
+  <polygon points="100,35 65,80 75,80 50,115 55,115 30,155 170,155 145,115 150,115 125,80 135,80" fill="#3d7021"/>
+  
+  <!-- Tree trunk -->
+  <rect x="85" y="160" width="30" height="40" fill="#8b4513"/>
+  
+  <!-- Star on top -->
+  <polygon points="100,10 103,20 113,20 105,26 108,36 100,30 92,36 95,26 87,20 97,20" fill="#ffd700"/>
+  
+  <!-- Ornaments -->
+  <circle cx="80" cy="95" r="5" fill="#ff0000"/>
+  <circle cx="120" cy="95" r="5" fill="#0000ff"/>
+  <circle cx="70" cy="130" r="5" fill="#ffd700"/>
+  <circle cx="130" cy="130" r="5" fill="#ff69b4"/>
+  <circle cx="100" cy="110" r="5" fill="#ff0000"/>
+  <circle cx="60" cy="145" r="5" fill="#00ff00"/>
+  <circle cx="140" cy="145" r="5" fill="#ff1493"/>
+  <circle cx="90" cy="150" r="5" fill="#ffd700"/>
+  <circle cx="110" cy="150" r="5" fill="#0000ff"/>
+  
+  <!-- Lights (small glowing circles) -->
+  <circle cx="75" cy="85" r="3" fill="#ffff00" opacity="0.8"/>
+  <circle cx="125" cy="85" r="3" fill="#ffff00" opacity="0.8"/>
+  <circle cx="55" cy="125" r="3" fill="#ffff00" opacity="0.8"/>
+  <circle cx="145" cy="125" r="3" fill="#ffff00" opacity="0.8"/>
+  <circle cx="100" cy="140" r="3" fill="#ffff00" opacity="0.8"/>
+  
+  <!-- Garland -->
+  <path d="M 70,80 Q 85,85 100,80 T 130,80" stroke="#ffd700" stroke-width="2" fill="none"/>
+  <path d="M 50,120 Q 75,125 100,120 T 150,120" stroke="#ffd700" stroke-width="2" fill="none"/>
+</svg>

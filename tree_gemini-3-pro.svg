@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trunk -->
+  <rect x="90" y="250" width="20" height="50" fill="#8B4513" />
+
+  <!-- Leaves (Bottom Tier) -->
+  <polygon points="100,140 20,250 180,250" fill="#228B22" />
+  
+  <!-- Leaves (Middle Tier) -->
+  <polygon points="100,90 40,180 160,180" fill="#228B22" />
+  
+  <!-- Leaves (Top Tier) -->
+  <polygon points="100,40 60,120 140,120" fill="#228B22" />
+
+  <!-- Star -->
+  <polygon points="100,10 106,28 125,28 110,39 116,57 100,46 84,57 90,39 75,28 94,28" fill="#FFD700" />
+
+  <!-- Ornaments -->
+  <circle cx="100" cy="120" r="6" fill="#FF0000" />
+  <circle cx="70" cy="180" r="6" fill="#0000FF" />
+  <circle cx="130" cy="180" r="6" fill="#FFD700" />
+  <circle cx="50" cy="230" r="6" fill="#800080" />
+  <circle cx="150" cy="230" r="6" fill="#FFA500" />
+  <circle cx="100" cy="200" r="6" fill="#00FFFF" />
+  <circle cx="80" cy="140" r="5" fill="#FF69B4" />
+  <circle cx="120" cy="140" r="5" fill="#FFFFFF" />
+</svg>

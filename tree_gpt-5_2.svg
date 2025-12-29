@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 512 512"
+	fill="none"
+>
+	<defs>
+		<linearGradient id="treeGrad" x1="256" y1="110" x2="256" y2="440" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#2ECC71" />
+			<stop offset="1" stop-color="#1E8E4A" />
+		</linearGradient>
+		<linearGradient id="treeShade" x1="180" y1="120" x2="360" y2="440" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0E5A2D" stop-opacity="0.0" />
+			<stop offset="1" stop-color="#0E5A2D" stop-opacity="0.35" />
+		</linearGradient>
+		<linearGradient id="starGrad" x1="256" y1="44" x2="256" y2="110" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#FFE08A" />
+			<stop offset="1" stop-color="#F4B400" />
+		</linearGradient>
+		<radialGradient id="ornamentHighlight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(45) scale(18)">
+			<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9" />
+			<stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+		</radialGradient>
+		<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+			<feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.18" />
+		</filter>
+	</defs>
+
+	<!-- No background rect: transparent by default -->
+	<g filter="url(#softShadow)">
+		<!-- Star -->
+		<g>
+			<path
+				d="M256 44 L267.6 76.6 L302.2 77.3 L274.6 98.4 L284.9 131.4 L256 111.6 L227.1 131.4 L237.4 98.4 L209.8 77.3 L244.4 76.6 Z"
+				fill="url(#starGrad)"
+			/>
+			<path
+				d="M256 54 L264.9 79.0 L291.4 79.6 L270.3 95.8 L278.2 121.2 L256 106.0 L233.8 121.2 L241.7 95.8 L220.6 79.6 L247.1 79.0 Z"
+				fill="#FFF3C4"
+				opacity="0.55"
+			/>
+		</g>
+
+		<!-- Tree layers -->
+		<g>
+			<!-- Top layer -->
+			<path
+				d="M256 118
+					 C241 140 220 158 198 182
+					 C186 195 182 210 180 226
+					 C179 234 183 242 194 242
+					 L318 242
+					 C329 242 333 234 332 226
+					 C330 210 326 195 314 182
+					 C292 158 271 140 256 118 Z"
+				fill="url(#treeGrad)"
+			/>
+			<!-- Middle layer -->
+			<path
+				d="M256 168
+					 C232 195 204 215 176 244
+					 C160 261 154 281 152 304
+					 C151 315 157 326 173 326
+					 L339 326
+					 C355 326 361 315 360 304
+					 C358 281 352 261 336 244
+					 C308 215 280 195 256 168 Z"
+				fill="url(#treeGrad)"
+			/>
+			<!-- Bottom layer -->
+			<path
+				d="M256 230
+					 C225 266 189 295 150 334
+					 C128 356 120 384 118 416
+					 C117 432 126 446 148 446
+					 L364 446
+					 C386 446 395 432 394 416
+					 C392 384 384 356 362 334
+					 C323 295 287 266 256 230 Z"
+				fill="url(#treeGrad)"
+			/>
+			<!-- Subtle shade on right side -->
+			<path
+				d="M256 118
+					 C271 140 292 158 314 182
+					 C326 195 330 210 332 226
+					 C333 234 329 242 318 242
+					 L256 242 Z"
+				fill="url(#treeShade)"
+			/>
+			<path
+				d="M256 168
+					 C280 195 308 215 336 244
+					 C352 261 358 281 360 304
+					 C361 315 355 326 339 326
+					 L256 326 Z"
+				fill="url(#treeShade)"
+			/>
+			<path
+				d="M256 230
+					 C287 266 323 295 362 334
+					 C384 356 392 384 394 416
+					 C395 432 386 446 364 446
+					 L256 446 Z"
+				fill="url(#treeShade)"
+			/>
+		</g>
+
+		<!-- Garland -->
+		<g stroke="#F7D154" stroke-width="6" stroke-linecap="round" opacity="0.95">
+			<path d="M190 235 C225 265 287 265 322 235" />
+			<path d="M170 318 C218 358 294 358 342 318" />
+			<path d="M160 404 C220 444 292 444 352 404" />
+		</g>
+
+		<!-- Ornaments -->
+		<g>
+			<!-- Red -->
+			<g>
+				<circle cx="230" cy="256" r="12" fill="#E74C3C" />
+				<circle cx="224" cy="250" r="10" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+			<g>
+				<circle cx="300" cy="292" r="12" fill="#E74C3C" />
+				<circle cx="294" cy="286" r="10" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+			<g>
+				<circle cx="210" cy="368" r="14" fill="#E74C3C" />
+				<circle cx="203" cy="361" r="12" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+
+			<!-- Blue -->
+			<g>
+				<circle cx="285" cy="244" r="11" fill="#3498DB" />
+				<circle cx="279" cy="238" r="9" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+			<g>
+				<circle cx="220" cy="328" r="11" fill="#3498DB" />
+				<circle cx="214" cy="322" r="9" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+			<g>
+				<circle cx="310" cy="396" r="13" fill="#3498DB" />
+				<circle cx="304" cy="390" r="11" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+
+			<!-- Purple -->
+			<g>
+				<circle cx="256" cy="350" r="12" fill="#9B59B6" />
+				<circle cx="250" cy="344" r="10" fill="url(#ornamentHighlight)" opacity="0.9" />
+			</g>
+		</g>
+
+		<!-- Trunk -->
+		<g>
+			<path
+				d="M224 446
+					 C224 434 234 424 246 424
+					 L266 424
+					 C278 424 288 434 288 446
+					 L288 486
+					 C288 495 281 502 272 502
+					 L240 502
+					 C231 502 224 495 224 486 Z"
+				fill="#8E5A2B"
+			/>
+			<path
+				d="M256 424 L266 424
+					 C278 424 288 434 288 446
+					 L288 486
+					 C288 495 281 502 272 502
+					 L256 502 Z"
+				fill="#6F4320"
+				opacity="0.55"
+			/>
+		</g>
+
+		<!-- Snow base -->
+		<g opacity="0.9">
+			<ellipse cx="256" cy="494" rx="150" ry="22" fill="#FFFFFF" opacity="0.8" />
+			<ellipse cx="256" cy="494" rx="115" ry="16" fill="#EAF3FF" opacity="0.85" />
+		</g>
+
+		<!-- Small sparkles -->
+		<g fill="#FFFFFF" opacity="0.9">
+			<circle cx="172" cy="286" r="2" />
+			<circle cx="340" cy="270" r="2" />
+			<circle cx="192" cy="410" r="2" />
+			<circle cx="332" cy="430" r="2" />
+			<circle cx="256" cy="210" r="2" />
+		</g>
+	</g>
+</svg>

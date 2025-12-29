@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="globe-clip">
+      <circle cx="200" cy="200" r="150"/>
+    </clipPath>
+    <radialGradient id="sphere-gradient" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E4D7B;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="highlight" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Globe sphere -->
+  <circle cx="200" cy="200" r="150" fill="url(#sphere-gradient)"/>
+  
+  <g clip-path="url(#globe-clip)">
+    <!-- Latitude lines -->
+    <ellipse cx="200" cy="200" rx="150" ry="40" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.6"/>
+    <ellipse cx="200" cy="200" rx="150" ry="80" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="200" cy="200" rx="150" ry="120" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.4"/>
+    
+    <!-- Equator -->
+    <line x1="50" y1="200" x2="350" y2="200" stroke="#357ABD" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Longitude lines -->
+    <ellipse cx="200" cy="200" rx="40" ry="150" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="200" cy="200" rx="80" ry="150" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.4"/>
+    <ellipse cx="200" cy="200" rx="120" ry="150" fill="none" stroke="#357ABD" stroke-width="1.5" opacity="0.3"/>
+    
+    <!-- Prime meridian -->
+    <line x1="200" y1="50" x2="200" y2="350" stroke="#357ABD" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Continents (simplified shapes) -->
+    <!-- North America -->
+    <path d="M 140 120 Q 120 130 130 150 L 145 160 Q 155 165 160 155 L 165 140 Q 170 125 140 120 Z" 
+          fill="#2ECC71" opacity="0.9"/>
+    
+    <!-- South America -->
+    <path d="M 150 210 Q 145 230 155 245 L 160 255 Q 165 260 170 250 L 175 230 Q 178 215 150 210 Z" 
+          fill="#27AE60" opacity="0.9"/>
+    
+    <!-- Europe -->
+    <path d="M 200 110 L 215 115 Q 225 120 220 130 L 210 135 Q 200 138 195 125 Z" 
+          fill="#2ECC71" opacity="0.9"/>
+    
+    <!-- Africa -->
+    <path d="M 205 145 Q 215 155 220 175 L 225 195 Q 228 210 215 215 L 200 210 Q 195 195 198 175 L 200 160 Q 202 145 205 145 Z" 
+          fill="#27AE60" opacity="0.9"/>
+    
+    <!-- Asia -->
+    <path d="M 230 120 Q 250 125 265 140 L 275 155 Q 280 165 270 175 L 255 180 Q 240 175 235 160 L 230 145 Q 228 130 230 120 Z" 
+          fill="#2ECC71" opacity="0.9"/>
+    
+    <!-- Australia -->
+    <path d="M 265 230 Q 280 235 285 245 L 282 255 Q 278 260 270 258 L 260 252 Q 258 240 265 230 Z" 
+          fill="#27AE60" opacity="0.9"/>
+  </g>
+  
+  <!-- Sphere highlight/shine -->
+  <ellipse cx="160" cy="160" rx="80" ry="60" fill="url(#highlight)"/>
+  
+  <!-- Globe outline -->
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#1E4D7B" stroke-width="3"/>
+</svg>
